@@ -1,5 +1,5 @@
 resource "aws_db_instance" "project_db" {
-  allocated_storage                   = 20
+  allocated_storage                   = 200
   storage_type                        = "gp2"
   engine                              = "mysql"
   engine_version                      = "5.7"
@@ -10,7 +10,7 @@ resource "aws_db_instance" "project_db" {
 }
 
 resource "aws_db_instance" "project_db_reports" {
-  allocated_storage                   = 20
+  allocated_storage                   = 200
   storage_type                        = "gp2"
   engine                              = "mysql"
   engine_version                      = "5.7"
